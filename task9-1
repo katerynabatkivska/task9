@@ -1,0 +1,8 @@
+const headers = document.querySelectorAll('h2.head');
+headers.forEach(header => {
+  header.style.backgroundColor = 'green';
+  const innerElements = header.querySelectorAll('.inner');
+  innerElements.forEach(innerElement => {
+    innerElement.style.fontSize = '35px';
+  });
+});
